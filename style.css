@@ -58,4 +58,9 @@
 .button-style{
   padding: 12px;
   margin: 5px;
+  border: 1px solid white;
+}
+.button-style:hover{
+  border: 1px solid black !important;
+  border-radius: 5px;
 }
