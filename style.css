@@ -17,6 +17,10 @@ input{
   background-position: 2% 50%;
 
 }
+.icon{
+  width: 30px;
+  color: #dfe1e5;
+}
 a{
   color: #000;
   text-decoration: none;
@@ -37,6 +41,8 @@ a:hover{
 .header-nav-item2{
   
   float: right;
+  position: relative;
+
 }
 .google-logo{
   clear: both;
@@ -93,4 +99,17 @@ select:focus,
 textarea:focus,
 button:focus {
     outline: none;
+}
+.sign-in-button{
+  background-color: #4387fd;
+  float:right;
+  color: white;
+  padding: 7px 10px;
+  border: 0;
+  border-radius: 6px;
+  bottom: 10px;
+}
+.center{
+  position: relative;
+  bottom: 7px;
 }
