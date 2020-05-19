@@ -6,8 +6,16 @@
 }
 input{
   border: 1px solid #dfe1e5;
-  padding: 15px 120px;
+  padding: 15px 90px;
   border-radius: 24px;
+  
+}
+#search{
+  background-image: url(images/search-26227.png);
+  background-repeat: no-repeat;
+  background-size: 6%;
+  background-position: 2% 50%;
+
 }
 a{
   color: #000;
@@ -79,4 +87,10 @@ input:hover{
   border: 2px solid #dfe1e5 !important;
   border-radius: 10px;
   color: #222;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
