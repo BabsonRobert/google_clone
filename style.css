@@ -1,7 +1,20 @@
 *{
   margin: 0;
   padding: 0;
-  
+  font-family: Arial, Helvetica, sans-serif;
+}
+input{
+  border: 1px solid #dfe1e5;
+  padding: 10px 70px;
+  border-radius: 24px;
+}
+a{
+  color: #000;
+  text-decoration: none;
+  padding: 0 10px;
+}
+a:hover{
+  text-decoration: underline;
 }
 .header-nav-bar {
   padding: 30px;
@@ -59,8 +72,9 @@
   padding: 12px;
   margin: 5px;
   border: 1px solid white;
+  border-radius: 10px;
 }
 .button-style:hover{
-  border: 1px solid black !important;
-  border-radius: 5px;
+  border: 1px solid #dfe1e5 !important;
+  border-radius: 10px;
 }
