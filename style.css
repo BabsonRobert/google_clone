@@ -32,24 +32,22 @@ a:hover{
 .google-logo{
   clear: both;
   text-align: center;
-  padding: 30px;
+  padding: 17px;
   padding-top: 120px;
 }
-.search-bar-container{
-  border: 1px solid #dfe1e5;
-  display: flex;
-  margin: auto;
-  width: 482px;
-  text-align: center;
+
+input:hover{
+  box-shadow: 2px 2px 5px grey;
 }
 .search-form{
   text-align: center;
 }
 .button-container{
-  padding: 50px;
+  padding: 35px;
 }
 .link-under-search{
   text-align: center;
+  color: #609;
 }
 .footer{
   padding: 20px 0;
@@ -71,10 +69,12 @@ a:hover{
 .button-style{
   padding: 12px;
   margin: 5px;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 10px;
+  color: #5F6368;
 }
 .button-style:hover{
-  border: 1px solid #dfe1e5 !important;
+  border: 2px solid #dfe1e5 !important;
   border-radius: 10px;
+  color: #222;
 }
