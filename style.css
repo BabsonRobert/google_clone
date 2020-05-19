@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.header-nav-bar {
+  padding: 30px;
+  text-align: center;
+
+}
+.header-nav-item{
+  
+  float: left;
+}
+.header-nav-item2{
+  
+  float: right;
+}
+.google-logo{
+  clear: both;
+  text-align: center;
+  padding: 30px;
+  padding-top: 120px;
+}
+.search-bar-container{
+  border: 1px solid #dfe1e5;
+  display: flex;
+  margin: auto;
+  width: 482px;
+  text-align: center;
+}
+.search-form{
+  text-align: center;
+}
+.button-container{
+  padding: 50px;
+}
+.link-under-search{
+  text-align: center;
+}
+.footer{
+  padding: 20px 0;
+  width: 100%;
+  background-color: gainsboro;
+  position: absolute;
+  bottom: 0;
+}
+.footer-left{
+  
+  float: left;
+  padding-left: 30px;
+}
+.footer-right{
+  
+  float: right;
+  padding-right: 30px;
+}
+.button-style{
+  padding: 12px;
+  margin: 5px;
+}
